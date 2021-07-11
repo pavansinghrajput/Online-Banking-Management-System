@@ -1,0 +1,28 @@
+
+///transaction
+///joint locking .
+convert big endian to little endian.
+use in host. htonl host to network layer
+use in server. ntohl network to host layer.
+ 
+
+----------------------------------
+1)signup , add joint account can be done by both user and admin.
+result- solved.
+2)admin func- search an account is not implemented.
+
+
+//credentials
+-->admin
+admin 
+admin
+ 
+
+-->users
+pavan
+singh
+12345
+
+karan
+singh
+23456
