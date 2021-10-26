@@ -19,7 +19,7 @@ int main(int argc,char *argv[])
 
 	server.sin_family = AF_INET;
 	server.sin_addr.s_addr = INADDR_ANY;
-	server.sin_port = htons(atoi(argv[1]));
+	server.sin_port = htons(8082);
 
 	connect(sd, (struct sockaddr *)(&server), sizeof(server));
 	
